@@ -1,2 +1,2 @@
 # NavigationPageTool
-android使用Navigation的簡易範例
+使用kotlin的一個Navigation的簡易範例，包含換頁效果與參數傳送
