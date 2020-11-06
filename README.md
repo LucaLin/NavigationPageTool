@@ -66,10 +66,16 @@ step 5：點選跳頁動作
 step 1：在介面中新增一個argument，選完後的arg會自動產生在xml中
 
 ![image](https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/10.PNG)
+
 *注意，arg要寫在action裡面，可以新增多個
 
 事實上是navigation會在使用者加入destination後自動產生一個 <your classname>Destination類別來執行相關的動作
 所以arg也建立好之後，呼叫對應的方法即會看到剛才設定的參數必須要填入
+
         
 ![image](https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/11.PNG)
+
+
+現在就可以把輸入的內容放入該類別中請nav送了，這裡抓取edittext中輸入的文字做成bundle傳送，搭配剛才換頁的action
+![image](https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/12.PNG)
 
