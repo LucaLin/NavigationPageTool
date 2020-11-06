@@ -7,8 +7,7 @@ step 1：在gradle中導入所需套件
 
 *專案層級的gradle中：
 
-dependencies {
-
+        dependencies {
         //your dependencies here
         //...
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.0.0"
