@@ -3,7 +3,7 @@
 
 ### 一、 換頁效果
 
-step1：在gradle中導入所需套件
+step 1：在gradle中導入所需套件
 
 *專案層級的gradle中：
 
@@ -21,16 +21,16 @@ dependencies {
 
 
 
-step2：在res資料夾中建立navigation resourse,並建立一個navigation resource file
+step 2：在res資料夾中建立navigation resourse,並建立一個navigation resource file
 
 ![image](https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/3.PNG)
 
 
-step3：建立兩個空白的fragment
+step 3：建立兩個空白的fragment
 
 ![image](https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/5.PNG)
 
-step4：在my_navigation.xml中有圖形化介面可操作，點選「add」可看到剛才新增的fragment
+step 4：在my_navigation.xml中有圖形化介面可操作，點選「add」可看到剛才新增的fragment
 
 ![image](https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/6.PNG)
 
@@ -49,7 +49,7 @@ navagation分為三部分：
 
 ![image](https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/8.PNG)
 
-step4：點選跳頁動作
+step 5：點選跳頁動作
 
 我在fragment中加入一個button，在點擊事件中使用navController來執行action，參數內容就是剛才的action id
 
