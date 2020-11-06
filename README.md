@@ -33,7 +33,7 @@ step 4：在my_navigation.xml中有圖形化介面可操作，點選「add」可
 
 ![image](https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/6.PNG)
 
-navagation分為三部分：
+navigation分為三部分：
 
 1 destination：指定跳頁的目的地
 
@@ -57,3 +57,19 @@ step 5：點選跳頁動作
 現在來看一下效果吧！
 
 <img src="https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/1.gif" width="320" height="600"/>
+
+
+### 二、 傳送參數
+
+與先前的fragment一樣，navigation頁面使用fragment，當然也可以傳送參數到下一頁，使用的是xml中的argument參數
+
+step 1：在介面中新增一個argument，選完後的arg會自動產生在xml中
+
+![image](https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/10.PNG)
+*注意，arg要寫在action裡面，可以新增多個
+
+事實上是navigation會在使用者加入destination後自動產生一個 <your classname>Destination類別來執行相關的動作
+所以arg也建立好之後，呼叫對應的方法即會看到剛才設定的參數必須要填入
+        
+![image](https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/11.PNG)
+
