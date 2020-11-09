@@ -79,3 +79,9 @@ step 1：在介面中新增一個argument，選完後的arg會自動產生在xml
 現在就可以把輸入的內容放入該類別中請nav送了，這裡抓取edittext中輸入的文字做成bundle傳送，搭配剛才換頁的action
 ![image](https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/12.PNG)
 
+現在就試試在edittext中輸入文字，並在換頁的時候將文字帶到下一頁的效果吧！
+
+<img src="https://github.com/LucaLin/NavigationPageTool/blob/main/screenshots/2.gif" width="320" height="600"/>
+
+詳細使用方式請參考原始程式碼
+
